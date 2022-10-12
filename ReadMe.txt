@@ -1,5 +1,5 @@
-# DEADLOCK:
-## Introduction:
+ DEADLOCK:
+ Introduction:
 
 Deadlock is a situation where a set of processes are blocked because each processes holding a resource acquired by some other process.
 Consider an example when two train area coming towards each other on the same track and there is only one track, none of the trains can move once they are in front of each other. A similar situation occurs in operating system when there are two or more processes the hold same resources and wait for resources held by others. for example, in the blow diagram, Process 1 is holding resource 1 and waiting resource 2 which is acquires by process 2, and process 2 is waiting for resource 1.
